@@ -1,0 +1,9 @@
+@mixin test {
+	font-family: Sans;
+}
+
+body {
+	@include test;
+
+	color: red;
+}
